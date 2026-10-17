@@ -1,0 +1,220 @@
+jazzcash L0 to L1 
+number to account L1 
+No otp 
+free account L1 
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Account Level Upgrade Demo</title>
+
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+    }
+
+    body {
+      background: #f2f5f3;
+      color: #222;
+    }
+
+    header {
+      background: #087a43;
+      color: white;
+      padding: 25px 15px;
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: 24px;
+      margin-bottom: 8px;
+    }
+
+    .container {
+      max-width: 420px;
+      margin: 25px auto;
+      padding: 15px;
+    }
+
+    .card {
+      background: white;
+      border-radius: 14px;
+      padding: 22px;
+      margin-bottom: 18px;
+      box-shadow: 0 4px 14px #00000010;
+    }
+
+    .badge {
+      display: inline-block;
+      background: #fff0c7;
+      color: #765000;
+      padding: 7px 10px;
+      border-radius: 20px;
+      font-size: 12px;
+      margin-bottom: 18px;
+    }
+
+    .levels {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 10px;
+      margin-bottom: 20px;
+    }
+
+    .level {
+      flex: 1;
+      padding: 20px 8px;
+      background: #eef8f1;
+      border-radius: 12px;
+      text-align: center;
+    }
+
+    .level h2 {
+      color: #087a43;
+      font-size: 28px;
+      margin-bottom: 7px;
+    }
+
+    .arrow {
+      font-size: 25px;
+      color: #087a43;
+    }
+
+    p {
+      line-height: 1.6;
+      margin-bottom: 15px;
+    }
+
+    button {
+      width: 100%;
+      background: #087a43;
+      color: white;
+      border: none;
+      border-radius: 9px;
+      padding: 14px;
+      font-size: 16px;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background: #065f34;
+    }
+
+    .notice {
+      background: #fff7e5;
+      border-left: 4px solid #e3a51b;
+      padding: 13px;
+      line-height: 1.6;
+      font-size: 14px;
+    }
+
+    footer {
+      text-align: center;
+      color: #666;
+      font-size: 12px;
+      padding: 15px;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <h1>Account Level Guide</h1>
+    <p>L0 to L1 Upgrade Information</p>
+  </header>
+
+  <main class="container">
+
+    <section class="card">
+      <span class="badge">
+        DEMO WEBSITE — NOT OFFICIAL
+      </span>
+
+      <div class="levels">
+        <div class="level">
+          <h2>L0</h2>
+          <p>Current Level</p>
+        </div>
+
+        <div class="arrow">→</div>
+
+        <div class="level">
+          <h2>L1</h2>
+          <p>Next Level</p>
+        </div>
+      </div>
+
+      <p>
+        Learn about the account verification
+        process using official support channels.
+      </p>
+
+      <button onclick="showSteps()">
+        View Upgrade Steps
+      </button>
+    </section>
+
+    <section class="card" id="steps">
+      <h3 style="margin-bottom:12px">
+        Upgrade Instructions
+      </h3>
+
+      <p>
+        1. Open the official JazzCash application.
+      </p>
+
+      <p>
+        2. Check your account profile and verification
+        options.
+      </p>
+
+      <p>
+        3. Follow the official verification instructions.
+      </p>
+
+      <p>
+        4. Contact official customer support if you need help.
+      </p>
+
+      <button onclick="contactSupport()">
+        Support Information
+      </button>
+    </section>
+
+    <section class="card">
+      <h3 style="margin-bottom:12px">
+        Security Notice
+      </h3>
+
+      <div class="notice">
+        This is an independent real and cannot upgrade
+        a real account. Never enter your MPIN, OTP,
+        password or CNIC on an unofficial website.
+      </div>
+    </section>
+
+    <footer>
+      Educational real only. Not affiliated with JazzCash.
+    </footer>
+  </main>
+
+  <script>
+    function showSteps() {
+      document.getElementById("steps")
+        .scrollIntoView({ behavior: "smooth" });
+    }
+
+    function contactSupport() {
+      alert(
+        "Please use the official JazzCash app or verified support channels."
+      );
+    }
+  </script>
+</body>
+</html>
